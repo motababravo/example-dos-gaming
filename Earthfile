@@ -66,3 +66,10 @@ keen:
         --build-arg GAME_URL=https://image.dosgamesarchive.com/games/keen-shr.zip \
         --build-arg GAME_ARGS=\"KEEN.BAT\" \
         +play
+
+jones:
+    BUILD \
+        --build-arg GAME_TAG=jones \
+        --build-arg GAME_URL=https://archive.org/download/JonesInTheFastLaneDOSEN/Jones-in-the-Fast-Lane_DOS_EN.zip \
+        --build-arg GAME_ARGS=\"SIERRA.BAT\" \
+        +play
