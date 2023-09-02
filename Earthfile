@@ -1,5 +1,6 @@
 
 jsdos:
+    VERSION 0.7
     FROM node:16-alpine
     
     WORKDIR site
