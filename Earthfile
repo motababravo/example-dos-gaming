@@ -76,7 +76,7 @@ jones:
 
 dopewars:
     BUILD \
-        --build-arg GAME_TAG=jones \
+        --build-arg GAME_TAG=dopewars \
         --build-arg GAME_URL=https://archive.org/download/dopewars/dopewars.zip \
         --build-arg GAME_ARGS=\"DopeWars.exe\" \
         +play
