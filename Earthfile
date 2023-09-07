@@ -73,3 +73,10 @@ jones:
         --build-arg GAME_URL=https://archive.org/download/JonesInTheFastLaneDOSEN/Jones-in-the-Fast-Lane_DOS_EN.zip \
         --build-arg GAME_ARGS=\"SIERRA.BAT\" \
         +play
+
+dopewars:
+    BUILD \
+        --build-arg GAME_TAG=jones \
+        --build-arg GAME_URL=https://archive.org/download/dopewars/dopewars.zip \
+        --build-arg GAME_ARGS=\"DopeWars.exe\" \
+        +play
