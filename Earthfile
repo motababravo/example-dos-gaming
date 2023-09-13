@@ -29,7 +29,7 @@ play:
     ARG GAME_TAG
     WITH DOCKER --load jsdos:$GAME_TAG=+web
         RUN docker inspect jsdos:$GAME_TAG > /dev/null && \ #Using side-effect to save image locally too
-            docker run --rm -p 127.0.0.1:8000:8000 jsdos:$GAME_TAG
+            docker run --rm -p 8000:8000 jsdos:$GAME_TAG
     END
 
 secretagent:
