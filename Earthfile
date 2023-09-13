@@ -78,5 +78,5 @@ fifa:
     BUILD \
         --build-arg GAME_TAG=fifa \
         --build-arg GAME_URL=https://github.com/motababravo/example-dos-gaming/raw/main/fifa.zip \
-        --build-arg GAME_ARGS=\"fifa.exe\" \
+        --build-arg GAME_ARGS=\"AUTORUN.BAT\" \
         +play
