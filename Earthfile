@@ -73,3 +73,10 @@ jones:
         --build-arg GAME_URL=https://archive.org/download/JonesInTheFastLaneDOSEN/Jones-in-the-Fast-Lane_DOS_EN.zip \
         --build-arg GAME_ARGS=\"SIERRA.BAT\" \
         +play
+
+fifa:
+    BUILD \
+        --build-arg GAME_TAG=fifa \
+        --build-arg GAME_URL=https://github.com/motababravo/example-dos-gaming/raw/main/fifa.zip \
+        --build-arg GAME_ARGS=\"fifa.exe\" \
+        +play
